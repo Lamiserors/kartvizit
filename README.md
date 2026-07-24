@@ -17,17 +17,24 @@ Geleneksel kartvizitleri optik karakter tanıma (OCR), yapay zeka (LLM) ve QR ko
 ☁️ Bulut Tabanlı Dağıtım: Esnek ve kesintisiz sunucu altyapısı için Railway üzerinde canlıya alınmıştır.
 
 🛠️ Kullanılan Teknolojiler
+
 Alan	Teknolojiler
 Backend	Node.js, Express.js
+
 Veritabanı	PostgreSQL
+
 Yapay Zeka / OCR	Google Gemini-2.5-Flash API, jsQR
+
 Görüntü İşleme	Sharp
+
 Deployment / Cloud	Railway
 
 📦 Kurulum ve Çalıştırma
+
 Projeyi yerel ortamınızda çalıştırırken takip edilecek temel adımlar:
 
 Gereksinimler
+
 Node.js (v18 veya üzeri)
 
 PostgreSQL veritabanı
@@ -35,6 +42,7 @@ PostgreSQL veritabanı
 Gemini API Anahtarı
 
 Adımlar
+
 Proje deposunu bilgisayarınıza klonlayın.
 
 Proje ana dizininde npm install komutuyla bağımlılıkları yükleyin.
@@ -44,6 +52,7 @@ Kök dizine bir .env dosyası ekleyip PORT, DATABASE_URL ve GEMINI_API_KEY deği
 Veritabanı tablolarını oluşturduktan sonra npm start ile sunucuyu başlatın.
 
 🏗️ Mimari ve Çalışma Mantığı
+
 Görsel Yükleme: Kartvizit fotoğrafı sisteme aktarılır.
 
 Sharp Optimize: Görsel işlenir, netleştirilir ve küçültülür.
