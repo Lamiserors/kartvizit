@@ -1,9 +1,11 @@
-# kartvizit
+# Otomatik Kartvizit Okuma
 
 🎴 Digital Business Card Scanner & Management System
+
 Geleneksel kartvizitleri optik karakter tanıma (OCR), yapay zeka (LLM) ve QR kod okuma teknolojilerini kullanarak dijital ortama aktaran, verileri yapılandırılmış olarak PostgreSQL veritabanında saklayan hibrit bir dijital kartvizit işleme platformudur.
 
 🚀 Öne Çıkan Özellikler
+
 📷 QR Kod Algılama: jsQR kütüphanesi ile kartvizitler üzerindeki QR kodları anında tarar ve çözümler.
 
 🤖 AI Destekli Veri Çıkarımı: QR kod içermeyen veya ek metin barındıran kartvizitleri Google Gemini-2.5-Flash API kullanarak analiz eder; ad, soyad, telefon, e-posta, unvan ve şirket bilgilerini yüksek doğrulukla ayıklar.
@@ -21,6 +23,7 @@ Veritabanı	PostgreSQL
 Yapay Zeka / OCR	Google Gemini-2.5-Flash API, jsQR
 Görüntü İşleme	Sharp
 Deployment / Cloud	Railway
+
 📦 Kurulum ve Çalıştırma
 Projeyi yerel ortamınızda çalıştırırken takip edilecek temel adımlar:
 
